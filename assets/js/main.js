@@ -3,11 +3,12 @@
 //Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 
 
+//creiamo una variabile che identifica l'oggetto VUE
 const { createApp } = Vue
 
 
 
- 
+ //funzione degli oggetti da implementare
 createApp({
     /* option object */
       
