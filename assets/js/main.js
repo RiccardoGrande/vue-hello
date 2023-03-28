@@ -5,13 +5,28 @@
 
 const { createApp } = Vue
 
+
+
+ 
 createApp({
     /* option object */
-  data() {
-    return {
-      message: 'Hello Vue!',
-      contentStyle: ''
-    }
-  }
+    import image from "./assets/img/HD-wallpaper-landscape-red-dead-redemption-2.jpg"
+
+    export default {
+      data: function () {
+        return {
+          image: image
+        }
+      }
+    },
+      
+      
+      data() {
+        return {
+          message: 'Hello Vue!',
+         
+
+        }
+      }
 }).mount('#app')
 
